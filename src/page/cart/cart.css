@@ -1,0 +1,173 @@
+
+.cart-table{
+    width: 100%;
+    background: #fff;
+    border: #ccc solid 1px;
+    border-collapse: collapse;
+}
+
+.cart-header{
+    background: #eee;
+}
+
+.cart-cell{
+    height: 40px;
+    line-height: 40px;
+}
+
+.cell-check{
+    width: 10%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cell-check input{
+    vertical-align: -2px;
+}
+
+.cell-check span{
+    font-weight: bold;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+
+.cart-header .cell-info{
+    text-align: center;
+}
+
+.cell-info{
+    width: 10%;
+    text-align: left;
+}
+
+.cell-info .p-img{
+    width: 80px;
+    height: 80px;
+    border: #ddd solid 1px;
+    margin: 10px 0;
+}
+
+.cart-header .cell-ps{
+    text-align: center;
+}
+
+.cell-ps{
+    width: 35%;
+    text-align: left;
+    line-height: 2;
+}
+
+.cell-price{
+    width: 10%;
+    text-align: center;
+}
+
+.cell-count{
+    width: 15%;
+    text-align: center;
+}
+
+.cell-count .cell-count-btn{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: #999 solid 1px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    vertical-align: -2px;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+}
+
+.cell-count .count{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+
+.cell-total{
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+.cell-opera{
+    width: 10%;
+    text-align: center;
+}
+
+.cart-body tr{
+    border-bottom: #ccc solid 1px;
+}
+
+.cart-body tr:hover{
+    background: #fafafa;
+}
+
+.cart-foot{
+    background: #eee;
+}
+
+.cart-foot td{
+    line-height: 60px;
+}
+
+
+.submit-con{
+    padding: 0 20px;
+    display: inline-block;
+    float: right;
+}
+
+.submit-con span{
+    font-size: 16px;
+}
+
+.submit-con span.submit-total{
+    color: #c60023;
+}
+
+.submit-con .submit-btn{
+    margin: 10px 0 10px 30px;
+}
+
+
+
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #f60;
+    font-size: 16px;
+    font-weight: bold;
+    background: #eee;
+}
+
+.err-tip a{
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+

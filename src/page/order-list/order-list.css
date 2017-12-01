@@ -1,0 +1,101 @@
+
+.orderList-con{
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead{
+    background: #eee;
+    line-height: 30px;
+    text-align: left;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+table tr{
+    border-bottom: #eee solid 1px;
+}
+
+table .order-info{
+    line-height: 50px;
+    padding: 0 10px;
+    color: #666;
+    background: #fafafa;
+}
+
+table .order-info .order-text{
+    margin-right: 35px;
+}
+
+table .order-info .order-text .statusDesc{
+    color: #f60;
+}
+
+table .order-info .order-num{
+    font-weight: bold;
+}
+
+table .order-info .order-total{
+   color: #c60023;
+}
+
+table .order-info .order-detail{
+    float: right;
+}
+
+table .cell{
+    padding: 0 10px;
+}
+
+table .cell-img{
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+}
+
+table .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+table .cell-info{
+    width: 45%;
+    text-align: left;
+}
+table .cell-price{
+    width: 10%;
+    text-align: center;
+}
+table .cell-count{
+    width: 15%;
+    text-align: center;
+}
+table .cell-total{
+    width: 15%;
+    text-align: center;
+}
+
+table tbody tr:hover{
+    background: #fafafa;
+}
+
+
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #f60;
+    background: #eee;
+    font-size: 20px;
+}
+
+
+
+
+
+
+

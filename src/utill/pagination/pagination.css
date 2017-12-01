@@ -1,0 +1,44 @@
+
+.pg-content{
+    color: #65CEA7;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+
+.pg-content li{
+    border: #ccc solid 1px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: -1px;
+}
+
+.pg-content li.pg-total{
+    border: none;
+    color: #666;
+}
+
+.pg-content li.pg-item{
+    cursor: pointer;
+}
+
+.pg-content li.active{
+    color: #fff;
+    background: #029be2;
+}
+
+.pg-content li.disabled{
+    cursor: auto;
+    background: rgba(2,155,226,0.5);
+    color: #777;
+}
+
+
+
+

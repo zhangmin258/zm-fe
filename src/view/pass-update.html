@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title %>--MMall电商</title>
+</head>
+
+<body>
+    <%= require('html-loader!./layout/nav.html') %>
+    <%= require('html-loader!./layout/header-common.html') %>
+    <div class="crumb">
+        <div class="w">
+            <div class="crumb-con">
+                <a href="./index.html" class="link">MMall</a>
+                <span>></span>
+                <span class="link-text"><%= htmlWebpackPlugin.options.title %></span>
+            </div>
+        </div>
+    </div>
+    <div class="page-wrap w">
+        <%= require('html-loader!./layout/nav-side.html') %>
+        <div class="content">
+            <div class="panel">
+                <div class="panel-title">修改密码</div>
+                <div class="panel-body">
+                    <div class="user-info">
+                        <div class="error-item">
+                            <i class="fa fa-minus-circle error-icon"></i>
+                            <p class="error-msg"></p>
+                        </div>
+                        <div class="form-line">
+                            <label class="label" for="old-password">原始密码：</label>
+                            <input type="password" id="old-password" autocomplete="off" placeholder="请输入原始密码">
+                        </div>
+                        <div class="form-line">
+                            <label class="label" for="new-password">新密码：</label>
+                            <input type="password" id="new-password" autocomplete="off" placeholder="请输入新密码">
+                        </div>
+                        <div class="form-line">
+                            <label class="label" for="confirm-newPassword">确认新密码：</label>
+                            <input type="password" id="confirm-newPassword" autocomplete="off" placeholder="请输入确认新密码">
+                        </div>
+                        <button class="btn btn-submit" id="submit">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%= require('html-loader!./layout/footer-common.html') %>
+</body>
+</html>

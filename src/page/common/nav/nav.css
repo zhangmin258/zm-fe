@@ -1,0 +1,44 @@
+
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav .user-infoo{
+    float: left;
+}
+
+.nav .user-infoo span{
+    margin-right: 5px;
+}
+
+.nav .user-infoo span em{
+    font-style: normal;
+}
+
+.nav .user-infoo span.user{
+    color: maroon;
+}
+
+
+
+.nav .nav-list{
+    float: right;
+}
+
+.nav .nav-list li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

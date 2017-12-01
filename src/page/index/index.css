@@ -1,0 +1,206 @@
+
+
+.keywords-list{
+    width: 240px;
+    height: 350px;
+    float: left;
+    padding: 10px 0;
+    margin-right: 10px;
+    background: #666;
+    color: #fff;
+}
+
+.keywords-list .keywords-item{
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.keywords-list .keywords-item:hover{
+    background: #999;
+}
+
+.keywords-list .keywords-item .link{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 6px;
+}
+
+.keywords-list .keywords-item .link:hover{
+    color: #c60023;
+}
+
+
+.banner-con{
+    position: relative;
+    width: 830px;
+    height: 370px;
+    float: left;
+    background: #eee;
+}
+
+.banner-con .loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner{
+    position: relative;
+    overflow: auto;
+}
+
+.banner ul{
+
+}
+
+.banner ul li{
+    float: left;
+}
+
+.banner .banner-img{
+    width: 100%;
+    height: 370px;
+}
+
+.banner .dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+}
+
+.banner .dots li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    border: #fff solid 2px;
+    text-indent: -999em;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+    vertical-align: middle;
+}
+
+.banner .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+
+.banner-con .banner-arrow{
+    position: absolute;
+    top: 160px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ccc;
+    background: rgba(0,0,0,.2);
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+.banner-con .banner-arrow:hover{
+    background: #aaa;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+}
+
+.banner-con .banner:hover .banner-arrow{
+    display: block;
+}
+
+.banner-con .prev{
+    left: 20px;
+}
+
+.banner-con .next{
+    right: 20px;
+}
+
+
+
+.floor-wrap{
+    overflow: hidden;
+    clear: both;
+}
+.floor-wrap .floor-title{
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.floor-wrap:nth-child(1) .floor-title{
+    color: #d58717;
+    border-bottom: #d58717 solid 1px;
+}
+
+.floor-wrap:nth-child(2) .floor-title{
+    color: #3b83bc;
+    border-bottom: #3b83bc solid 1px;
+}
+
+.floor-wrap:nth-child(3) .floor-title{
+    color: #a93931;
+    border-bottom: #a93931 solid 1px;
+}
+
+.floor-wrap:nth-child(4) .floor-title{
+    color: #488bad;
+    border-bottom: #488bad solid 1px;
+}
+
+.floor-wrap:nth-child(5) .floor-title{
+    color: #642663;
+    border-bottom: #642663 solid 1px;
+}
+
+.floor-wrap .floor-list{
+    margin-right: -20px;
+    overflow: hidden;
+} 
+.floor-wrap .floor-list .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    padding-top: 10px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.floor-wrap .floor-list .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+
+.floor-wrap .floor-list .floor-item .floor-text{
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list .floor-item a{
+    text-decoration: none;
+}
+.floor-wrap .floor-list .floor-item a span{
+    color: #777;
+}
+.floor-wrap .floor-list .floor-item a span:hover{
+    color: #c60023;
+}
+
+.floor-wrap .floor-list .floor-item .floor-img{
+    width: 160px;
+    height: 165px;
+    margin: 5px auto;
+}

@@ -1,0 +1,59 @@
+
+
+.page-wrap{
+    background: #fff;
+    padding: 10px 0 20px 0;
+}
+
+.payment-tip{
+    text-align: center;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.payment-tip span{
+    color: #c60023;
+}
+
+.payment-tip:nth-of-type(2){
+    color: #f60;
+}
+
+
+.img-con{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+}
+
+.img-con img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #f60;
+    background: #eee;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

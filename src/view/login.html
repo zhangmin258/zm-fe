@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title %>--MMall电商</title>
+</head>
+
+<body>
+    <%= require('html-loader!./layout/nav-simple.html') %>
+    <div class="page-wrap">
+        <div class="w">
+            <div class="user-con">
+                <div class="user-title">用户登录</div>
+                <div class="user-box">
+                    <div class="error-item">
+                        <i class="fa fa-minus-circle error-icon"></i>
+                        <p class="error-msg"></p>
+                    </div>
+                    <div class="user-item">
+                        <label for="userName" class="user-label">
+                            <i class="fa fa-user"></i>
+                        </label>
+                        <input type="text" id="userName" class="user-content" placeholder="请输入用户名！" autocomplete="off">
+                    </div>
+                    <div class="user-item">
+                        <label for="password" class="user-label">
+                            <i class="fa fa-lock"></i>
+                        </label>
+                        <input type="password" id="password" class="user-content" placeholder="请输入密码！" autocomplete="off">
+                    </div>
+                    <button class="btn btn-submit" id="submit">登录</button>
+                    <div class="link-item">
+                        <a href="./pass-reset.html" class="link">忘记密码</a> | 
+                        <a href="./reg.html" class="link">免费注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%= require('html-loader!./layout/footer-common.html') %>
+</body>
+</html>

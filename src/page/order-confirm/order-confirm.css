@@ -1,0 +1,270 @@
+
+
+.address-item, .address-add{
+    width: 250px;
+    background: #fff;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    border: #ccc dashed 3px;
+    cursor: pointer;
+}
+.address-item:hover, .address-add:hover{
+    background: #fafafa;
+}
+
+.address-item.active{
+    border: #c60023 dashed 3px;
+}
+.address-item .address-title{
+    line-height: 20px;
+    border-bottom: #ddd solid 1px;
+    overflow: hidden;
+}
+
+.address-item .address-title span{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.address-item .address-title span:nth-child(3){
+    float: right;
+    margin-left: 0;
+}
+
+.address-item .address-title span:nth-child(3) strong{
+    color: #c60023;
+}
+
+.address-item .address-detail{
+    clear: both;
+    margin: 5px 0 10px 0;
+}
+
+.address-item .address-detail span{
+    margin-right: 5px;
+}
+
+.address-item .address-opera{
+    text-align: right;
+    visibility: hidden;
+}
+.address-item:hover .address-opera{
+    visibility: visible;
+}
+.address-item .address-opera span{
+    margin-left: 5px;
+}
+
+.address-add .address-new{
+    text-align: center;
+    color: #777;
+}
+
+.address-new i{
+    font-size: 34px;
+    line-height: 53px;
+}
+
+
+
+.product-table{
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border: #ccc solid 1px;
+}
+
+.product-table thead{
+    background: #eee;
+    line-height: 40px;
+}
+
+.product-table tbody tr{
+    border-bottom: #ccc solid 1px;
+}
+
+.product-table tr{
+    text-align: left;
+}
+
+.product-table .cell-img{
+    width: 20%;
+    text-align: center;
+}
+
+.product-table .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    border: #ddd solid 1px;
+    margin: 10px auto;
+}
+
+.product-table .cell-ps{
+    width: 35%;
+}
+
+.product-table .cell-price{
+    width: 15%;
+    text-align: center;
+}
+
+.product-table .cell-count{
+    width: 15%;
+     text-align: center;
+}
+
+.product-table .cell-total{
+    width: 15%;
+     text-align: center;
+}
+
+.product-table tfoot tr{
+    text-align: right;
+    background: #eee;
+    font-size: 16px;
+}
+
+.product-table .submit-total{
+    font-weight: bold;
+    color: #c60023;
+}
+
+.product-table .order-submit{
+    margin: 10px 20px 10px 50px;
+}
+
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #f60;
+    font-size: 16px;
+    font-weight: bold;
+    background: #eee;
+}
+
+
+/* 弹窗样式 */
+
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #eee;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal .modal-container{
+    width: 500px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+
+.modal .madal-header{
+    height: 40px;
+    line-height: 40px;
+    background: #eee;
+    padding: 0 10px;
+    position: relative;
+}
+
+.modal .madal-header h1{
+    font-size: 14px;
+    font-weight: normal;
+    color: #f60;
+}
+
+.modal .madal-header i{
+    position: absolute;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    color: #777;
+    cursor: pointer;
+}
+
+.modal .modal-body{
+    padding: 20px;
+}
+
+.modal .form-line{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.modal .form-line:last-child{
+    margin-bottom: 0;
+}
+
+.modal .form-line .label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color: #666;
+}
+
+.modal .form-line .label span{
+    color: red;
+    font-size: 14px;
+    vertical-align: -3px
+}
+
+.modal .form-line input[type="text"]{
+    width: 260px;
+    height: 30px;
+    border: #999 solid 1px;
+    padding-left: 10px;
+    outline: none;
+    color: #666;
+
+}
+
+.modal .form-line select{
+    height: 30px;
+    width: 130px;
+    margin-right: 8px;
+    border: #999 solid 1px;
+    color: #666;
+    padding-left: 10px;
+}
+
+.modal .address-btn{
+    margin-left: 150px;
+    letter-spacing: 1px;
+}
+
+
+.modal .error-item{
+    width: 232px;
+    position: relative;
+    padding: 4px 0 4px 40px;
+    margin-bottom: 10px;
+    margin-left: 103px;
+    border: red solid 1px;
+    color: red;
+    background: #fde9e9;
+    display: none;
+}
+
+.modal .error-item .error-icon{
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin-top: -7px;
+    font-size: 14px;
+}
+
+
